@@ -1,0 +1,30 @@
+{
+  "name": "nyt-mongo",
+  "version": "1.0.0",
+  "description": "web scraper using mongo and new york times",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksbains/nyt-mongo.git"
+  },
+  "author": "Karanbir Bains",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksbains/nyt-mongo/issues"
+  },
+  "homepage": "https://github.com/ksbains/nyt-mongo#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "es6-promise": "^4.1.1",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.13.6",
+    "morgan": "^1.9.0",
+    "request": "^2.83.0"
+  }
+}

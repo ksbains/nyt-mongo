@@ -1,0 +1,39 @@
+ body { background-color: #000000 }
+      #wrapper {
+        width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5%;
+      }
+      #articles {
+        
+      }
+      .article{
+        border-width: 3px;
+        border-style: solid;
+        border-color: #00CED1;
+        background-color: #A9A9A9;
+      }
+      .jumbotron{
+        background-color:#FFFFFF 
+        border-width: 5px;
+        border-style: solid;
+        border-color: #696969;
+      }
+      #notes {
+        float: right;
+        width: 30%;
+      }
+      textarea, input {
+        display: block;
+        width: 100%;
+        background-color: #FCF5C7;
+      }
+      input {
+        height: 36px;
+        font-size: 24px;
+      }
+      textarea {
+        height: 200px;
+        font-size: 18px;
+      }
